@@ -923,7 +923,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     margin: 0 auto;
   }
 
@@ -1203,7 +1203,7 @@ body {
 
 @media (max-width: 380px) {
   .container {
-    max-width: 600px;
+    width: 600px;
     margin: 0 auto;
   }
 
