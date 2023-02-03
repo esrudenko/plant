@@ -921,7 +921,7 @@ body {
   margin-top: -5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1085px) {
   .container {
     width: 768px;
     margin: 0 auto;
@@ -1201,9 +1201,10 @@ body {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 660px) {
+  
   .container {
-    width: 660px;
+    width: 330px;
     margin: 0 auto;
   }
 
