@@ -180,7 +180,7 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  width: 100%; 
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -221,9 +221,11 @@ body {
   color: rgba(224, 103, 51, 1);
   font-weight: bold;
 }
+
 .welcome {
- width: 100%; 
+  width: 100%;
 }
+
 .wel {
   display: flex;
   background-color: rgba(237, 242, 236, 1);
@@ -876,6 +878,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   list-style: none;
+  padding-top: 5px;
 }
 
 .callus:hover {
@@ -1200,7 +1203,7 @@ body {
 
 @media (max-width: 380px) {
   .container {
-    max-width: 380px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
@@ -1714,9 +1717,10 @@ body {
     height: 26px;
     font-size: 10px;
     line-height: 13px;
+    padding: 7px;
   }
 
-  *.footer-list {
+  .footer-list {
     flex-direction: row;
     flex-wrap: wrap;
     width: 210px;
